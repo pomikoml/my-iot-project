@@ -350,15 +350,17 @@ section img#2
         position: fixed;
         top: 20px;
         left: 10px;
-        z-index: 1100;
+        z-index: 110000;
         color: #fff;
     }
     nav .logo
     {
+       
         position: fixed;
-        margin: 20px 0;
+        margin: 25px 0;
         justify-content: center;
         padding-left: 65px;
+        
     }
     nav ul{
         position: fixed;
@@ -381,7 +383,7 @@ section img#2
     .nav-active{
         display: flex;
         padding-top: 10%;
-        z-index: 1000;
+        z-index: 100000;
     }
     nav::before
     {
