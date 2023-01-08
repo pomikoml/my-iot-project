@@ -1,0 +1,384 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace,sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: 100vh;
+    background: linear-gradient(#180b2d,#180b2d);
+    background: hidden;
+    /*background: #180b2d;*/
+}
+nav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+nav .logo
+{
+
+    color:#fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 15px;
+    z-index: 10000;
+}
+nav .logo img
+{
+    width: 3.5em;
+}
+.btn-hamburger
+{
+    font-size: 1.5em;
+    color: #180b2d;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: .3s ease;
+}
+nav ul li a:hover  ,
+nav ul li a.active
+{
+    background: #fff;
+    color: #180b2d;
+}
+section
+{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#180b2d,transparent);
+    z-index: 100;
+}
+/*section img 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: 7;
+    
+}*/
+.m2
+{
+    display: flex;
+    width: 15%;
+    height: 35%;
+}
+section img#3
+{
+    z-index: 8;
+}
+section img#2
+{
+    z-index: 8;
+}
+#text
+{
+    position: absolute;
+    color: rgb(233, 144, 10);
+    white-space:  nowarp;
+    font-size: 8vw;
+    z-index: 9;
+    
+}
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color:#180b2d;
+    font-size: 1.5em;
+    z-index: 900;
+    transform: translateY(100px);
+}
+.sec
+{
+    
+    position: relative;
+    display:flex;
+    /*padding: 100px;*/
+    background: #180b2d;
+    text-align: center;
+    z-index: 1000;
+   
+}
+.sec img
+{
+    width: 100%;
+}
+.sec .box-left , .sec .box-right
+{
+    width: 50%;
+}
+.sec .box-left , .sec .box-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+.sec .box-cen
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec .box-cen img
+{
+    width: 50%;
+    
+}
+
+.sec h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec h3
+{
+    font-size: 2.5em;
+    color: #fff;
+}
+.sec p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sec2
+{
+    position: relative;
+    padding: 100px;
+    background: #180b2d;
+    
+}
+#l1::after{
+    animation:fadeout 3s
+}
+.sec2 h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec2 p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sec3
+{
+    position: relative;
+    padding: 100px;
+    background: #180b2d;
+    
+}
+.sec3 h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec3 p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sec4
+{
+    position: relative;
+    padding: 100px;
+    background: #180b2d;
+    
+}
+.sec4 h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec4 p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sec5
+{
+    position: relative;
+    padding: 100px;
+    background: #180b2d;
+    
+}
+.sec5 h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec5 p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.sec6
+{
+    position: relative;
+    padding: 100px;
+    background: #180b2d;
+    
+}
+.sec6 h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec6 p
+{
+    font-size: 1.2em;
+    color: #fff;
+}
+.space
+{
+    margin-top: 50vh;
+}
+.subspace
+{
+    margin-top: 15vh;
+}
+.subspace2
+{
+    margin-top: 25vh;
+}
+@keyframes fadeout
+{
+    from{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 1180px) 
+{
+    .section {
+        width: 100%;
+    }
+    nav {
+        background:#180b2d;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }    
+    .btn-hamburger{
+        display: block;
+        position: fixed;
+        top: 20px;
+        left: 10px;
+        z-index: 1000;
+        color: #fff;
+    }
+    nav .logo
+    {
+        position: fixed;
+        margin: 20px 0;
+        justify-content: center;
+        padding-left: 65px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        background:#180b2d;
+        display: none;
+        /*display: flex;*/
+        flex-direction: column;
+        transition: .3s ease;
+        
+    }
+    nav ul li a {
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        /*border-bottom:  1px solid #1d459b;*/
+        z-index: 10000;
+        font-size: 2.5em;
+    }
+    .nav-active{
+        display: flex;
+        
+    }
+    #btn
+    {
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .sec{
+        flex-direction: column;
+    }
+    .sec .box-left{
+        width: 100%;
+    }
+    .sec .box-right{
+        width: 100%;
+    }
+}
