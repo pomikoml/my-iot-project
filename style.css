@@ -112,7 +112,7 @@ section
     width: 100%;
     
 }
-section::before
+/*section::before
 {
     content: '';
     position: absolute;
@@ -122,7 +122,7 @@ section::before
     height: 100px;
     background: linear-gradient(to top,#180b2d,transparent);
     z-index: 100;
-}
+}*/
 /*section img 
 {
     position: absolute;
