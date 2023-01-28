@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace,sans-serif;
     scroll-behavior: smooth;
+    
 }
 body
 {
@@ -15,6 +16,7 @@ body
 }
 nav
 {
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -412,3 +414,5 @@ section img#2
         width: 100%;
     }
 }
+
+   
