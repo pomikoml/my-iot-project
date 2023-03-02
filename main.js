@@ -82,6 +82,88 @@ $(document).ready(function(){
     .setTween(timeline2)
     .setPin('.second-section')
     .addTo(controller);
+
+
+    let timeline3 = new TimelineMax();
+    timeline3
+    .to('.section_3_01', 4, {
+        x: -221,
+        y: -154,
+        ease: Power3.easeInOut,
+        rotation: 345
+    })
+    .to('.section_3_02', 4, {
+        x: 162,
+        y: -160,
+        ease: Power3.easeInOut,
+        rotation: 75
+    }, '-=4')
+    .to('.section_3_03', 4, {
+        x: -20,
+        y: -154,
+        ease: Power3.easeInOut,
+        
+    }, '-=4')
+    .to('.section_3_04', 4, {
+        x: -134,
+        y: 9,
+        ease: Power3.easeInOut,
+        rotation: 215
+        
+    }, '-=4')
+    .to('.section_3_05', 4, {
+        x: 160,
+        y: 75,
+        ease: Power3.easeInOut,
+        rotation: 450
+        
+    }, '-=4')
+    .to('.section_3_06', 4, {
+        x: -24,
+        y: 130,
+        ease: Power3.easeInOut,
+        rotation: 245
+        
+    }, '-=4')
+    .to('.section_3_07', 4, {
+        
+        ease: Power3.easeInOut,
+        rotation: 360
+        
+    }, '-=4')
+    .to('.section_3_08', 4, {
+        x: 105,
+        y: -40,
+        ease: Power3.easeInOut,
+        rotation: 420
+        
+    }, '-=4')
+    .to('.section_3_09', 4, {
+        x: -106,
+        y: 90,
+        ease: Power3.easeInOut,
+        rotation: 690
+        
+    }, '-=4')
+    .to('.section_3_10', 4, {
+        x: -79,
+        y: -75,
+        ease: Power3.easeInOut,
+        rotation: 360
+        
+    }, '-=4')
+
+    let scene3 = new ScrollMagic.Scene({
+        triggerElement: '.third-section',
+        duration: '100%',
+        triggerHook: 0,
+        offset: '200',
+        width: '100%',
+        
+    })
+    .setTween(timeline3)
+    .setPin('.third-section')
+    .addTo(controller);
   
 })
 
