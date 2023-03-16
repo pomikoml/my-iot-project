@@ -164,6 +164,62 @@ $(document).ready(function(){
     .setTween(timeline3)
     .setPin('.third-section')
     .addTo(controller);
+
+
+    let timeline4 = new TimelineMax();
+    timeline4
+    .to('.section_4_01', 4, {
+        
+        ease: Power3.easeInOut
+    })
+    .to('.section_4_02', 4, {
+        x: -170,
+        y: 20,
+        ease: Power3.easeInOut
+    }, '-=4')
+    .to('.section_4_03', 4, {
+        x: -235,
+        y: 0,
+        ease: Power3.easeInOut
+        
+    }, '-=4')
+    .to('.section_4_04', 4, {
+        x: -280,
+        y: -15,
+        ease: Power3.easeInOut
+
+    }, '-=4')
+    .to('.section_4_05', 4, {
+        x: 170,
+        y: 20,
+        ease: Power3.easeInOut
+        
+    }, '-=4')
+    .to('.section_4_06', 4, {
+        x: 235,
+        y: 0,
+        ease: Power3.easeInOut
+        
+    }, '-=4')
+    .to('.section_4_07', 4, {
+        x: 280,
+        y: -15,
+        ease: Power3.easeInOut
+        
+        
+    }, '-=4')
+
+    let scene4 = new ScrollMagic.Scene({
+        triggerElement: '.four-section',
+        duration: '100%',
+        triggerHook: 0,
+        offset: '200',
+        width: '100%',
+        
+    })
+    .setTween(timeline4)
+    .setPin('.four-section')
+    .addTo(controller);
   
 })
 
