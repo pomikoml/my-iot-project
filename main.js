@@ -1,4 +1,6 @@
+
 $(document).ready(function(){
+    
 /*document.addEventListener('DOMContentLoaded', () =>{*/
     var controller = new ScrollMagic.Controller();
 
@@ -38,7 +40,7 @@ $(document).ready(function(){
         offset: '300'
     })
     .setTween(timeline)
-    .addIndicators()
+    
     .setPin('.first-section')
     .addTo(controller);
 
@@ -74,12 +76,13 @@ $(document).ready(function(){
     let scene2 = new ScrollMagic.Scene({
         triggerElement: '.second-section',
         duration: '100%',
-        triggerHook: 0,
+        triggerHook: 0.55,
         offset: '200',
         width: '100%',
         
     })
     .setTween(timeline2)
+    
     .setPin('.second-section')
     .addTo(controller);
 
