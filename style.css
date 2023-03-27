@@ -21,6 +21,27 @@ footer{
     justify-content: center;
     align-items: flex-end;
 }
+.im1{
+  width: 10%;
+}
+.im2{
+  width: 20%;
+}
+.im3{
+  width: 30%;
+}
+.im4{
+  width: 40%;
+}
+.im5{
+  width: 50%;
+}
+.im6{
+  width: 60%;
+}
+.im7{
+  width: 70%;
+}
 .animation{
     height: 100vh;
     position: relative;
@@ -83,7 +104,7 @@ footer{
 
     top: 0;
     left: 0;
-    width: 30%;
+    width: 70%;
     height: 30%;
    
 
@@ -132,11 +153,7 @@ footer{
     z-index: 99;
   }
   
-  .section_1_06 {
-    position: absolute;
-    top: 170px;
-    right: 210px;
-  }
+  
 
 
 
@@ -364,7 +381,7 @@ footer{
     position: absolute;
     top: 50px;
     right: 50px;
-    z-index: 96;
+    z-index: 98;
   }
   
   .section_4_05 {
@@ -578,6 +595,7 @@ section img#2
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 3rem;
 }
 .sec .box-left2 ,.sec .box-right2{
@@ -596,11 +614,11 @@ section img#2
     align-items: center;
 }
 
-.sec .box-cen img
+/*.sec .box-cen img
 {
     width: 70%;
     
-}
+}*/
 .sec .box-cen .img-phone
 {
     width: 30%;

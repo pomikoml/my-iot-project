@@ -22,13 +22,33 @@ $(document).ready(function(){
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_1_04', 4, {
-        y: 250,
+        y: 140,
         x: -250,
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_1_05', 4, {
         y: -250,
         x: 230,
+        ease: Power3.easeInOut
+    }, '-=4')
+    .to('.section_1_06', 4, {
+        y: 50,
+        x: -300,
+        ease: Power3.easeInOut
+    }, '-=4')
+    .to('.section_1_07', 4, {
+        y: 10,
+        x: 250,
+        ease: Power3.easeInOut
+    }, '-=4')
+    .to('.section_1_08', 4, {
+        y: 235,
+        x: 250,
+        ease: Power3.easeInOut
+    }, '-=4')
+    .to('.section_1_09', 4, {
+        y: 200,
+        x: -250,
         ease: Power3.easeInOut
     }, '-=4')
     
@@ -49,7 +69,7 @@ $(document).ready(function(){
     let timeline2 = new TimelineMax();
     timeline2
     .to('.section_2_01', 4, {
-        y: -250,
+        y: -220,
         ease: Power3.easeInOut
     })
     .to('.section_2_02', 4, {
@@ -57,19 +77,19 @@ $(document).ready(function(){
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_2_03', 4, {
-        y: -100,
+        y: -160,
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_2_04', 4, {
-        y: 0,
+        y: -130,
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_2_05', 4, {
-        y: 150,
+        y: -80,
         ease: Power3.easeInOut
     }, '-=4')
     .to('.section_2_06', 4, {
-        y: 250,
+        y: -30,
         ease: Power3.easeInOut
     }, '-=4')
 
@@ -172,7 +192,7 @@ $(document).ready(function(){
     let timeline4 = new TimelineMax();
     timeline4
     .to('.section_4_01', 4, {
-        
+        x: -10,
         ease: Power3.easeInOut
     })
     .to('.section_4_02', 4, {
