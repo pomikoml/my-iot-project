@@ -877,10 +877,10 @@ section img#2
         width: 100%;
     }
     .sec .box-left2{
-      width: auto;
+      width: 100%;
   }
   .sec .box-right2{
-      width: auto;
+    width: 100%;
   }
 }
 
