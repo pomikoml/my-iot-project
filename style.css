@@ -974,30 +974,32 @@ section img#2
     width: 100%;
   }
   .im1{
-    width: 20%;
-  }
-  .im2{
     width: 30%;
   }
-  .im3{
+  .im2{
     width: 40%;
   }
-  .im4{
+  .im3{
     width: 50%;
   }
-  .im5{
+  .im4{
     width: 60%;
   }
-  .im6{
+  .im5{
     width: 70%;
   }
-  .im7{
+  .im6{
     width: 80%;
+  }
+  .im7{
+    width: 90%;
   }
   .sec h3 {
     font-size: 2em;
   }
-  
+  .sec h2 {
+    font-size: 2.5em;
+  }
 }
 
    
