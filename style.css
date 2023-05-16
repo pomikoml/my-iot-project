@@ -973,8 +973,31 @@ section img#2
   .sec .box-right2{
     width: 100%;
   }
+  .im1{
+    width: 20%;
+  }
+  .im2{
+    width: 30%;
+  }
+  .im3{
+    width: 40%;
+  }
+  .im4{
+    width: 50%;
+  }
+  .im5{
+    width: 60%;
+  }
+  .im6{
+    width: 70%;
+  }
+  .im7{
+    width: 80%;
+  }
+  .sec h3 {
+    font-size: 2em;
+  }
   
 }
-
 
    
