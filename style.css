@@ -64,7 +64,7 @@ footer{
   display: block;
 }
 .text-r{
-  text-align:center;
+  text-align:left;
 }
 .im1{
   width: 10%;
@@ -701,7 +701,7 @@ section img#2
 }
 .sec h3
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #180b2d;
 }
 .sec p
@@ -709,7 +709,14 @@ section img#2
     font-size: 1.2em;
     color: #180b2d;
 }
-.sec2
+#sec
+{
+    position: relative;
+    padding: 100px;
+    background: #ffffff;
+    
+}
+#sec2
 {
     position: relative;
     padding: 100px;
@@ -754,7 +761,7 @@ section img#2
     font-size: 1.2em;
     color: #180b2d;
 }
-.sec4
+#sec4
 {
     position: relative;
     padding: 100px;
@@ -771,7 +778,7 @@ section img#2
     font-size: 1.2em;
     color: #180b2d;
 }
-.sec5
+#sec5
 {
     position: relative;
     padding: 100px;
@@ -807,7 +814,7 @@ section img#2
 }
 .sec6 h3
 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #180b2d;
 }
 .sec6 p
@@ -827,6 +834,10 @@ section img#2
 .subspace2
 {
     margin-top: 25vh;
+}
+.subspace3
+{
+    margin-top: 5vh;
 }
 
 .flip-card {
