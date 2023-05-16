@@ -698,6 +698,7 @@ section img#2
 {
     font-size: 2em;
     color: #180b2d;
+    font-weight: bold;
 }
 .sec h3
 {
@@ -730,6 +731,7 @@ section img#2
 {
     font-size: 3.5em;
     color: #180b2d;
+    font-weight: bold;
 }
 .sec2 p
 {
@@ -755,6 +757,7 @@ section img#2
 {
     font-size: 3.5em;
     color: #180b2d;
+    font-weight: bold;
 }
 .sec3 p
 {
@@ -772,6 +775,7 @@ section img#2
 {
     font-size: 3.5em;
     color: #180b2d;
+    font-weight: bold;
 }
 .sec4 p
 {
@@ -788,6 +792,7 @@ section img#2
 .sec5 h2
 {
     font-size: 3.5em;
+    font-weight: bold;
     color: #180b2d;
 }
 .sec5 p
@@ -811,6 +816,7 @@ section img#2
 {
     font-size: 2em;
     color: #180b2d;
+    font-weight: bold;
 }
 .sec6 h3
 {
@@ -999,6 +1005,7 @@ section img#2
   }
   .sec h2 {
     font-size: 2.5em;
+    font-weight: bold;
   }
 }
 
