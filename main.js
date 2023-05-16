@@ -246,3 +246,44 @@ $(document).ready(function(){
   
 })
 
+var audio = document.getElementById("myAudio");
+var isPlaying = false;
+
+function toggleAudio() {
+  if (isPlaying) {
+    pauseAudio();
+  } else {
+    playAudio();
+  }
+}
+
+function playAudio() {
+  audio.play();
+  isPlaying = true;
+  document.getElementById("play-icon").src = "pause.png";
+}
+
+function pauseAudio() {
+  audio.pause();
+  isPlaying = false;
+  document.getElementById("play-icon").src = "play.png";
+}
+
+
+
+var scrollToTopButton = document.getElementById('scrollToTopButton');
+
+window.addEventListener('scroll', function() {
+  if (window.pageYOffset > 100) {
+    scrollToTopButton.classList.add('show');
+  } else {
+    scrollToTopButton.classList.remove('show');
+  }
+});
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
